@@ -17,7 +17,7 @@ var app = http.createServer(function(request,response){
           var list = '<ul>';
           var i = 0;
           while(i < filelist.length){
-            list = list + `<li><a href="/?id=${filelist[i]}">${filelist[i]}</a></li>`
+            list = list + `<li><a href="/?id=${filelist[i]}">${filelist[i]}</a></li>`;
             i = i + 1;
           }
           list = list+'</ul>';
