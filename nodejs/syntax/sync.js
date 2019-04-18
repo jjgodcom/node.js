@@ -13,4 +13,4 @@ console.log("A");
 fs.readFile('syntax/sample.txt', 'utf8', function(err, result){ //err은 에러가 있다면 에러를 전달
     console.log(result);
 });
-console.log("C");
+console.log("C"); 
