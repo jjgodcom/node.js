@@ -1,20 +1,4 @@
-var dog = {
-    name:"jjgodcom",
-    age:7
-}
+//module 을 불러오는 방법
+var food = require("./food"); //같은디렉토리에 food라는 이름의 파일명을 찾는다(확장자 필요 없음)
 
-console.log(dog);
-
-function sum(a,b){
-    return a+b;
-}
-
-console.log(sum(1,3));
-
-var print = function(){
-    console.log("print");
-}
-
-print();
-
-setTimeout(print, 7000); //7초 후에 print를 실행함
+food.Coke();
